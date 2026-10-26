@@ -1,0 +1,6 @@
+{
+  "name": "Blueprint",
+  "description": "A production-ready, clean-architecture native Android starter template built with Kotlin, Jetpack Compose, Material 3, MVVM, and DataStore.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

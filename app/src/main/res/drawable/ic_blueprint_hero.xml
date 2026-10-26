@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="320dp"
+    android:height="140dp"
+    android:viewportWidth="320"
+    android:viewportHeight="140">
+    <!-- Background Gradient -->
+    <path android:pathData="M0,0h320v140h-320z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="0"
+                android:startY="0"
+                android:endX="320"
+                android:endY="140"
+                android:type="linear">
+                <item android:color="#0F172A" android:offset="0.0" />
+                <item android:color="#1E1B4B" android:offset="0.6" />
+                <item android:color="#0F172A" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Blueprint Grid Lines -->
+    <path
+        android:pathData="M0,28L320,28M0,56L320,56M0,84L320,84M0,112L320,112M40,0L40,140M80,0L80,140M120,0L120,140M160,0L160,140M200,0L200,140M240,0L240,140M280,0L280,140"
+        android:strokeWidth="0.7"
+        android:strokeColor="#1F38BDF8" />
+
+    <!-- Accent Circles & Nodes -->
+    <path
+        android:fillColor="#1A38BDF8"
+        android:pathData="M240,70m-48,0a48,48 0,1 1,96 0a48,48 0,1 1,-96 0" />
+    <path
+        android:pathData="M240,70m-36,0a36,36 0,1 1,72 0a36,36 0,1 1,-72 0"
+        android:strokeWidth="1.2"
+        android:strokeColor="#4D818CF8" />
+
+    <!-- Isometric Stack Right Side -->
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M240,96L204,76L240,56L276,76Z" />
+    <path
+        android:fillColor="#6366F1"
+        android:pathData="M240,82L204,62L240,42L276,62Z" />
+    <path
+        android:fillColor="#F8FAFC"
+        android:pathData="M240,68L212,52L240,36L268,52Z" />
+
+    <!-- Architectural Connection Lines -->
+    <path
+        android:pathData="M40,84L120,84L148,56L204,56"
+        android:strokeWidth="1.8"
+        android:strokeColor="#38BDF8" />
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M40,84m-4,0a4,4 0,1 1,8 0a4,4 0,1 1,-8 0" />
+    <path
+        android:fillColor="#818CF8"
+        android:pathData="M148,56m-4,0a4,4 0,1 1,8 0a4,4 0,1 1,-8 0" />
+</vector>

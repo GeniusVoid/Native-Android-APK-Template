@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Blueprint</string>
+    <string name="nav_overview">Overview</string>
+    <string name="nav_components">UI Kit</string>
+    <string name="nav_architecture">Structure</string>
+    <string name="nav_settings">Settings</string>
+    <string name="hero_badge">NATIVE ANDROID STARTER TEMPLATE</string>
+    <string name="hero_title">Clean Architecture Foundation</string>
+    <string name="hero_subtitle">Zero bloat. Pre-wired with Jetpack Compose, Material 3, MVVM StateFlow, Adaptive Navigation, and DataStore.</string>
+    <string name="udf_demo_title">Unidirectional Data Flow Demo</string>
+    <string name="udf_demo_subtitle">Persisted via DataStore &amp; reactive StateFlow</string>
+    <string name="action_increment">Increment</string>
+    <string name="action_decrement">Decrement</string>
+    <string name="action_reset">Reset</string>
+    <string name="components_title">Material 3 Sandbox</string>
+    <string name="components_subtitle">Copy-ready interactive components wired to ViewModel state</string>
+    <string name="architecture_title">Project Blueprint</string>
+    <string name="architecture_subtitle">Modular package structure designed to scale to any domain</string>
+    <string name="settings_title">Template Configuration</string>
+    <string name="settings_subtitle">Live theme controls &amp; runtime environment metadata</string>
+    <string name="cd_hero_illustration">Blueprint architectural illustration</string>
+    <string name="cd_reset_state">Reset template state</string>
+    <string name="cd_close_detail">Close layer detail</string>
+</resources>
